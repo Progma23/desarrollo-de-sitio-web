@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+<!--Metadatos-->
+<meta charset="utf-8">
+<meta name="author" content="DANN">
+<meta name="description" content="portafolio de desarrollo web DANN">
+<meta name="keywords" content="HTML,CSS,JavaScript, React">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Titulo-->
+<title> Desarrollo de sitio web y Juegos </title>
+<!--Favicon-->
+<link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+<!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!--iconos de bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet">
+ <!--Google Font-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+    <body>
+<!--Barra de navegacion-->
+<nav class="navbar navbar-expand-md navbar-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-toggler">
+      <a class="navbar-brand" href="#">
+        <img src="imagenes/iconos.svg" width="60" alt="logo de la pagina web">
+      </a>
+      <ul class="navbar-nav d-flex justify-content-center align-items-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#creadores">Creadores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--Audio-->  
+<section class="audio">
+<audio controls muted > 
+  <source src="Audios/Bienvenida.mp3" type="audio/mpeg">
+  </audio>
+</section>
+<!--Seccion Hero-->
+<section class="hero aling-items-stretch">
+  <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+    <img class="hero-imagen-mar rounded-circle" src="imagenes/mar.svg" alt="Foto de presentacion">
+    <h1> WEB-TEAM </h1>
+    <h2> Desarrollo de sitios web y videojuegos</h2>
+  </div>
+  <div class="hero-inferior">
+<img class="hero-inferior-imagen img-fluid" src="imagenes/inferior.webp" alt="logos de HTML,CSS,JavaScript">
+</div>
+</section>
+
+<!--sobre mi-->
+<section id="sobre-mi" class="sobre-mi seccion-oscura">
+<div class="contenedor">
+  <h2 class="seccion-titulo">Conoce nuestro sitio</h2>
+  <p class="seccion-texto">Bienvenidos a nuestra página de desarrollo web y creación de juegos, dónde  mostraremos cómo realizar una página web junto con un juego paso a paso, donde utilizaremos lenguajes de programación como lo es: JavaScript, HTML, CSS, entre otros.</p>
+</div>
+</section>
+
+<!--Experiencia -->
+<section class="experiencia seccion-clara">
+<div class="container text-center">
+<div class="row">
+<!--Desarrollo web-->
+<div class="columna col-12 col-md-4">
+  <i class="bi bi-laptop"></i>
+<p class="experiencia-titulo">Desarrollo web</p>
+<p>Los Desarrolladores Web se diseñan, crean y realizan mantenimiento a páginas y aplicaciones web, donde se trabajan en sitios de internet. Dicho de otra manera funciona mediante el uso de lenguajes de programación para crear el código que hace funcionar las páginas web.</p>
+<div class="badges-contenedor">
+  <span class="badge text-bg-primary">HTML</span>
+  <span class="badge text-bg-primary">CSS</span>
+  <span class="badge text-bg-primary">JavaScript</span>
+  <span class="badge text-bg-primary">React</span>
+</div>
+</div>
+<!--Articulos-->
+<div class="columna col-12 col-md-4">
+  <i class="bi bi-laptop"></i>
+  <p class="experiencia-titulo">Articulos</p>
+<p>Esta página tiene la finalidad de explicar y mostrar resultados, paso a paso y que tenga una funcionalidad de como utilizar los lenguajes de programación y su importancia</p>
+  <div class="badges-contenedor">
+    <span class="badge text-bg-primary">escribir</span>
+    <span class="badge text-bg-primary">crear</span>
+    <span class="badge text-bg-primary">diseño</span>
+    <span class="badge text-bg-primary">blogs</span>
+  </div>
+</div>
+<!--Estudiante-->
+<div class="columna col-12 col-md-4">
+  <i class="bi bi-laptop"></i>
+  <p class="experiencia-titulo">Estudiantes</p>
+<p>Cómo estudiantes de  ingeniería en sistemas computacionales desarrollamos esté proyecto con la finalidad de dar a conocer la creación de un juego utilizando los diferentes lenguajes de programación y como podemos aplicarlo en la vida cotidiana.</p>
+  <div class="badges-contenedor">
+    <span class="badge text-bg-primary">Visual Estudio Code</span>
+    <span class="badge text-bg-primary">Makecode arcade</span>
+    <span class="badge text-bg-primary">bootstrap</span>
+    <span class="badge text-bg-primary">GitHub</span>
+  </div>
+</div>
+</div >
+</div>
+</section>
+
+<!--Proyectos-->
+<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+<h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+<h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+<!--Galeria de proyectos-->
+<div class="container text-center proyectos-contenedor">
+  <div class="row">
+ <!--proyecto 1-->
+<div class="col-12 col-md-6 col-lg-4">
+<div class="proyecto">
+<img src="imagenes/proyecto1.gif" alt="proyecto 1">
+<div class="overlay">
+<p>Proyecto 1</p>
+<p>comic</p>
+<div class="iconos-contenedor">
+ <a href="https://progma23.github.io/comic-/" target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-github"></i>
+ </a> 
+ <a href="https://progma23.github.io/Galeria-de-videos/">
+  <i class="bi bi-caret-right-square-fill"></i>
+ </a>
+</div>
+</div>
+</div>
+</div>
+ <!--proyecto 2-->
+ <div class="col-12 col-md-6 col-lg-4">
+  <div class="proyecto">
+  <img src="imagenes/proyecto2.gif" alt="proyecto 1">
+  <div class="overlay">
+  <p>Proyecto 2</p>
+  <p>Juego</p>
+  <div class="iconos-contenedor">
+   <a href="https://arcade.makecode.com/S40405-48410-85679-81702" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-github"></i>
+   </a> 
+   <a href="https://progma23.github.io/Galeria-de-videos/">
+    <i class="bi bi-caret-right-square-fill"></i>
+   </a>
+  </div>
+  </div>
+  </div>
+  </div>
+   <!--proyecto 3-->
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="proyecto">
+  <img src="imagenes/proyecto3.gif" alt="proyecto 1">
+  <div class="overlay">
+  <p>Proyecto 3</p>
+  <p>Galeria de Videos</p>
+  <div class="iconos-contenedor">
+   <a href="https://github.com/Progma23/Galeria-de-videos/settings/pages" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-github"></i>
+   </a> 
+   <a href=" https://progma23.github.io/Galeria-de-videos/">
+    <i class="bi bi-caret-right-square-fill"></i>
+   </a>
+  </div>
+  </div>
+  </div>
+  </div>
+   <!--proyecto 4-->
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="proyecto">
+  <img src="imagenes/proyecto4.gif" alt="proyecto 1">
+  <div class="overlay">
+  <p>Proyecto 4</p>
+  <p>Opiniones</p>
+  <div class="iconos-contenedor">
+   <a href="https://progma23.github.io/Galeria-de-videos/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-github"></i>
+   </a> 
+   <a href="https://progma23.github.io/Galeria-de-videos/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-caret-right-square-fill"></i>
+   </a>
+  </div>
+  </div>
+  </div>
+  </div>
+   <!--proyecto 5-->
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="proyecto">
+  <img src="imagenes/proyecto5.jpg" alt="proyecto 1">
+  <div class="overlay">
+  <p>Proyecto 5</p>
+  <p>Desarrollo de videojuegos</p>
+  <div class="iconos-contenedor">
+   <a href="https://progma23.github.io/Galeria-de-videos/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-github"></i>
+   </a> 
+   <a href="https://progma23.github.io/Galeria-de-videos/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-caret-right-square-fill"></i>
+   </a>
+  </div>
+  </div>
+  </div></div>
+   <!--proyecto 6-->
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="proyecto">
+  <img src="imagenes/proyecto6.webp" alt="proyecto 1">
+  <div class="overlay">
+  <p>Proyecto 6</p>
+  <p></p>
+  <div class="iconos-contenedor">
+   <a href="https://progma23.github.io/Galeria-de-videos/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-github"></i>
+   </a> 
+   <a href="https://progma23.github.io/Galeria-de-videos/">
+    <i class="bi bi-caret-right-square-fill"></i>
+   </a>
+  </div>
+  </div>
+  </div>
+  </div> 
+</div>
+</div>
+<a href="https://es.education-wiki.com/1711441-advantages-of-html" target="_blank" rel="noopener noreferrer">
+<button type="button" class="btn btn-info">
+  ver más proyectos
+  <i class="bi bi-arrow-right-circle-fill"></i>
+</button>
+</a>
+</section>
+<!--Articulos-->
+<section class="articulos justify-content-start">
+<h2 class="seccion-titulo texto-negro">Articulos</h2>
+<div class="card">
+  <div class="card-header">
+    Más recientes
+  </div>
+  <ul class="list-group list-group-flush">
+    <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+      <li class="list-group-item"> El decorador @property en Python - cómo usarlo, ventajas y sintaxis</li>
+    </a>
+    <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+      <li class="list-group-item">
+        Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps
+      </li>
+    </a>
+    <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+      <li class="list-group-item">
+        Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas
+      </li>
+    </a>
+    <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+      <li class="list-group-item">
+        ¿Para qué se usa Python? 10+ usos del lenguaje de programación Python
+      </li>
+    </a>
+    <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+      <li class="list-group-item">
+        Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos
+      </li>
+    </a>
+  </ul>
+</div>
+<a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+  <button type="button" class="btn btn-info">
+    ver más artículos
+    <i class="bi bi-arrow-right-circle-fill"></i>
+  </button>
+</a>
+</section>
+
+<!--Testimonios-->
+<section id="creadores" class="tstimonios seccion-clara">
+<h2 class="seccion-titulo">Creadores</h2>
+<h3 class="seccion-descripcion">Estos son las creadoras de la pagina ...</h3>
+
+<!--Carrusel-->
+<div id="testimonios-carrusel" class="carousel  carousel-dark slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active">
+   <div class="container">
+<img class="testimonio-imagen rounded-circle" src="imagenes/testimonio1.jpg" alt="foto de Ambrosio">
+<p class="testimonio-texto">Nuestro objetivo de crear esté sitio es que pueda entender y comprender los lenguajes de programación y como aplicarlos en un sitio Web y a un videojuego. </p>
+<div class="testimonio-info"> 
+<p class="cliente">Ambrosio</p>
+<p class="cargo">Estudiante de la carrera de Ingieneria en Sistemas Computacionales</p>
+</div>
+   </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="imagenes/testimonio2.jpg" alt="foto de Moreno">
+        <p class="testimonio-texto">En la sección de artículos podrás tomar cursos donde aprenderás de una forma fácil y eficaz de programación, que será de su agrado. </p>
+        <div class="testimonio-info"> 
+        <p class="cliente">Moreno</p>
+        <p class="cargo">Estudiante de la carrera de Ingieneria en Sistemas Computacionales</p>
+        </div>
+           </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="imagenes/testimonio3.jpg" alt="foto de Cruz">
+        <p class="testimonio-texto">En la sección de artículos podrás tomar cursos donde aprenderás de una forma fácil y eficaz de programación, que será de su agrado. </p>
+        <div class="testimonio-info"> 
+        <p class="cliente">Cruz</p>
+        <p class="cargo">Estudiante de la carrera de Ingieneria en Sistemas Computacionales</p>
+        </div>
+           </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+</section>
+
+<!--contactos-->
+<section id="contacto" class="contacto seccion-oscura">
+<div class="container">
+  <div class="container text-center rectangulo d-flex justify-content-evenly">
+<div class="row">
+<div class="col-12 col-md-4 seccion-titulo">
+  ¡Hablemos!
+</div>
+<div class="col-12 col-md-4 descripcion">
+  Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+</div>
+<div class="col-12 col-md-4">
+<a href="mailto:progequipo6@gmail.com">
+<button type="button">
+  Contacto
+  <i class="bi bi-envelope-at-fill"></i>
+</button>
+</a>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</section>
+
+<!--footer-->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+  <img class="footer-logo" src="imagenes/icono2.svg" alt="Logo del portafolio">
+  <p class="footer-texto text-center">Aprendo y diseño todos los días.<br>Creemos un proyecto juntos.</p>
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-twitter"></i>
+    </a>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="mailto:progequipo6@gmail.com" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-envelope"></i>
+    </a>
+  </div>
+  <div class="derechos-de-autor">Creado por (Cruz,Ambrosio,Moreno) (2023) &#169;</div>
+</footer>
+</footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
